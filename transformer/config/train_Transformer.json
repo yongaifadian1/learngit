@@ -1,0 +1,12 @@
+{
+    "iemocap": {
+
+        "wavlm": {
+            "train.EPOCH": 120,
+            "train.batch_size": 32,
+            "train.lr": 0.0005
+        }
+    }
+
+    
+}

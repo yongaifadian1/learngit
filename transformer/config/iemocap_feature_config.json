@@ -1,0 +1,23 @@
+{   
+    "num_classes": 4,
+
+     "evaluate": ["wa", "ua","f1"],
+    
+    "meta_csv_file": "/148Dataset/data-mai.jialong/iemocap_extract/name_label_text.csv",
+    
+
+
+    "wavlm": {
+        "feature_dim": 1024, 
+        "matdir": "/148Dataset/data-mai.jialong/iemocap_extract/wavlm_large_L12_mat",
+        "matkey": "wav", 
+        "length": 400,
+        "pad_value": 0,
+
+
+        "frame": 0.02,
+        "hop": 0.01
+    }
+
+
+}
